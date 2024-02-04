@@ -3,7 +3,7 @@ import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 
-const pageTitle = "Flying platypus Home Page";
+const pageTitle = "Opieka nad psami Rumia Gdynia";
 ---
 
 <html lang="en">
@@ -16,8 +16,12 @@ const pageTitle = "Flying platypus Home Page";
 	</head>
 	<body>
 		<Navigation />
-
 		<h1>{pageTitle}</h1>
+		<h2>Kalendarz rezerwacji</h2>
+		<iframe src="https://calendar.google.com/calendar/embed?src=ndemytruk%40gmail.com&ctz=Europe%2FWarsaw" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		<p>Rezerwacje dokonywane są tylko przez sms, telefon lub email.</p>
+		<p>Jeśli w danym terminie wpisane jest imię zwierzaka, termin jest zajęty.</p>
+
 		<Footer />
 	</body>
 </html>
